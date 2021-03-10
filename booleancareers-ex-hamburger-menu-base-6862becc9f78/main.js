@@ -7,5 +7,5 @@ var hamburger_menu = $(".hamburger-menu");
 });
 var chiusura = $(".fa-times");
  chiusura.click(function(){
-     hamburger_menu.hide();
-   });
+     hamburger_menu.toggle("active");
+});
